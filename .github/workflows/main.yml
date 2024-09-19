@@ -1,0 +1,25 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Generate contributions snake
+        uses: Platane/snk@v1
+        with:
+          github_user_name: YashModi1804
+          config_file: .github/workflows/snk-config.yml
+
+      - name: Upload snake image
+        uses: actions/upload-artifact@v2
+        with:
+          name: snake
+          path: github-contribution-grid-snake.svg
