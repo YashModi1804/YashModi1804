@@ -14,9 +14,7 @@
  
  🌱 I’m currently learning **Low latency Software ,System Design, Cloud Architecture **
 
-💬 Ask me about **C++,Node.js, React, REST APIs... or anything [here](https://github.com/YashModi1804/issues)**
-
-⚡ Wisdom Drop: **In the stillness of the mind, one can find the universe!**
+💬 Ask me about **C++,Node.js, React, REST APIs... or anything** [here](https://github.com/YashModi1804/issues)
 
 </div>
 
@@ -28,7 +26,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
 </div>
-
+⚡ Wisdom Drop: **In the stillness of the mind, one can find the universe!**
 <hr/>
 
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
