@@ -12,7 +12,7 @@
  
  🔭 I’m currently working on **Code Assist**
  
- 🌱 I’m currently learning **Low latency Software ,System Design, Cloud Architecture **
+ 🌱 I’m currently learning **Low latency Software ,System Design, Cloud Architecture**
 
 💬 Ask me about **C++,Node.js, React, REST APIs... or anything** [here](https://github.com/YashModi1804/issues)
 
@@ -26,7 +26,9 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
 </div>
-⚡ Wisdom Drop: **In the stillness of the mind, one can find the universe!**
+<div align="center">
+⚡ Wisdom Drop : In the stillness of the mind, one can find the universe!
+</div>
 <hr/>
 
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
@@ -34,15 +36,6 @@
 <div align="center">
     <img src="https://skillicons.dev/icons?i=react,nodejs,javascript,typescript,html,css,mongodb,express,c,cpp,mysql,git,vscode,github" /><br>
 </div>
-
-<br/>
-<hr/>
-
-
-
-
-  
-  <br/><br/><br/>
 </div>
 
 <hr/>
