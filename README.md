@@ -10,7 +10,7 @@
 
 <div align="center">
  
- 🔭 I’m currently working on **Code Assist**
+ 🔭 I’m currently working in **Oracle**
  
  🌱 I’m currently learning **Low latency Software ,System Design, Cloud Architecture**
 
