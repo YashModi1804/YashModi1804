@@ -1,0 +1,103 @@
+{
+  "repository": "https://github.com/devicons/devicon",
+  "revision": "32fe1d3b3f36ad11f90ab94f7db59738139c2bf6",
+  "icons": [
+    {
+      "name": "c",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/c/c-original.svg",
+      "bytes": 241
+    },
+    {
+      "name": "cplusplus",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/cplusplus/cplusplus-original.svg",
+      "bytes": 1143
+    },
+    {
+      "name": "javascript",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/javascript/javascript-original.svg",
+      "bytes": 1144
+    },
+    {
+      "name": "typescript",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/typescript/typescript-original.svg",
+      "bytes": 943
+    },
+    {
+      "name": "react",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/react/react-original.svg",
+      "bytes": 2387
+    },
+    {
+      "name": "html5",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/html5/html5-original.svg",
+      "bytes": 607
+    },
+    {
+      "name": "css3",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/css3/css3-original.svg",
+      "bytes": 778
+    },
+    {
+      "name": "nodejs",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/nodejs/nodejs-original.svg",
+      "bytes": 1806
+    },
+    {
+      "name": "express",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/express/express-original.svg",
+      "bytes": 914
+    },
+    {
+      "name": "mongodb",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/mongodb/mongodb-original.svg",
+      "bytes": 5611
+    },
+    {
+      "name": "mysql",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/mysql/mysql-original.svg",
+      "bytes": 2765
+    },
+    {
+      "name": "git",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/git/git-original.svg",
+      "bytes": 778
+    },
+    {
+      "name": "github",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/github/github-original.svg",
+      "bytes": 1866
+    },
+    {
+      "name": "vscode",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/vscode/vscode-original.svg",
+      "bytes": 3404
+    },
+    {
+      "name": "python",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/python/python-original.svg",
+      "bytes": 2300
+    },
+    {
+      "name": "fastapi",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/fastapi/fastapi-original.svg",
+      "bytes": 3065
+    },
+    {
+      "name": "postgresql",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/postgresql/postgresql-original.svg",
+      "bytes": 9178
+    },
+    {
+      "name": "docker",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/docker/docker-original.svg",
+      "bytes": 4452
+    },
+    {
+      "name": "pydantic",
+      "repository": "https://github.com/simple-icons/simple-icons",
+      "revision": "90646e4bf7f3b89df6c37e65baf3e7bc759a517c",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/90646e4bf7f3b89df6c37e65baf3e7bc759a517c/icons/pydantic.svg",
+      "bytes": 675
+    }
+  ]
+}

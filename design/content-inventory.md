@@ -29,21 +29,20 @@ An optional grouping that retains every item once:
 - Data: MongoDB, MySQL.
 - Workflow: Git, VS Code, GitHub.
 
-If an icon strip remains, supply alt text that spells out all 14 names. Icons alone are insufficient as the sole record of these tools. Preserve the original set; the language statistics card showing another language is not permission to add a new claimed skill.
+If an icon strip remains, supply alt text that spells out all 14 names. Icons alone are insufficient as the sole record of these tools. Preserve the original set; the language statistics card showing another language is not permission to add a new claimed skill. The requested work-led revision may show an additional, explicitly labeled project stack when its repository manifests and implementation support it.
 
 ## Proposed professional structure and copy
 
-The art direction is quiet precision: warm paper, carbon type, a restrained clay accent, and slowly moving geometric contours. Native Markdown should carry every factual statement so the profile remains understandable when images do not load.
+The current art direction is dark cinematic with warm accents, applied across the whole profile. Native Markdown must carry the engineering story so the profile remains understandable when images do not load. The compact identity animation supports the work rather than dominating it.
 
-1. **Identity.** `Yash Modi` followed by `Associate Engineer at Oracle · India`.
-2. **Short personal line.** Optional: `Software, systems, and the space to think.` This is an editorial theme, not a new technical claim.
-3. **Current focus.** `I’m a developer from India, currently an Associate Engineer at Oracle. I’m learning low-latency software, system design, and cloud architecture.` If the role and location are already directly above, shorten the body to the second sentence to avoid repetition.
-4. **Conversation.** `Ask me about C++, Node.js, React, REST APIs—or anything you’re exploring.` Link “Ask me” to the verified repository issues page.
-5. **Toolkit.** Present the complete 14-item set. Avoid a proficiency scale or claims of mastery.
-6. **On GitHub.** Retain stats, streak, and top-language cards in a readable arrangement. These represent activity and repository composition; do not describe language percentages as expertise scores.
-7. **Contact and closing note.** Email and LinkedIn links, the exact personal quote, and a small visitor counter. Contacts may instead sit near the identity if the final layout calls for it.
+1. **Identity and direction.** `Yash Modi` and `Associate Engineer at Oracle · India`, followed by `I build full-stack software and AI integrations, with a focus on clear workflows, independent validation, and traceable decisions.` The projects below support this direction; it is not a statement about Oracle responsibilities.
+2. **Selected work.** Feature Folio with an actual labeled screenshot, a concise behavior-based description, and source/demo links. Add the scholarship workflow as supporting work only with the narrow description below.
+3. **Engineering evidence.** Three linked choices from Folio: Decimal reconciliation, persisted processing jobs, and separate reviewer decisions. Explain what each does; avoid broad reliability or performance guarantees.
+4. **Visual toolkit.** Present all 14 original tools with names and grouped logos. Keep native text available. Show additional technologies only in the separate Folio project-stack label.
+5. **Learning and conversation.** Preserve all three learning interests and the four conversation topics. Keep “Ask me” linked to the corrected issues page, with email and LinkedIn easy to find.
+6. **Personal note and activity.** Preserve the exact quote and visitor identity. Keep the activity ledger secondary, with its scope note and links to the original metric views.
 
-There are no projects, metrics, degrees, awards, employment dates, client names, or shipped-product claims in the original README. Do not invent any. The design can be impressive without adding unsupported credentials.
+The original README contains no projects, degrees, awards, employment dates, client names, or shipped-product claims. The owner's later request explicitly adds evidence-based selected work. Use the verification below; do not invent credentials, project outcomes, adoption, sole authorship, or employer responsibilities.
 
 ## Link and widget audit
 
@@ -85,7 +84,7 @@ The original `count_private=true` parameters do not by themselves prove access t
 - Remove unmatched HTML, repeated blank lines, and redundant separators.
 - Keep all factual content in native text even if the artwork repeats selected words.
 
-## Final implementation audit — 2026-11-03
+## Earlier implementation audit — 2026-11-03
 
 The finished `README.md` preserves all original personal facts and contact destinations in native text. The only employment change is the requested **Associate Engineer** title at Oracle; no tenure, job responsibilities, or additional credentials were inferred. The toolkit table contains exactly 14 unique names, with no omissions or additions. The learning sentence still describes learning, and the exact quote remains unattributed. All local image/document destinations referenced by the README exist.
 
@@ -109,13 +108,86 @@ The new metrics are not numerically interchangeable with the old cards:
 - [x] Activity statistics, streaks, and top languages remain available in the local snapshot; the changed numerical scope is documented above. The existing visitor counter is unchanged.
 - [x] No unsupported personal, employment, or skill claims were added.
 
-## Particle identity refinement
+## Work-led revision: verified project evidence — 2026-11-03
 
-The owner selected dark cinematic styling with warm accents and requested letters
-that break into particles and reform. The active hero uses the dark artwork
-regardless of the viewer's GitHub theme, with a reduced-motion still. The light
-artwork remains an alternate asset. The Möbius surface forms the O in MODI; it is
-decorative personal artwork, not an employer graphic or scientific simulation.
-The exact original statistics, streak, and language URLs are available as links
-inside the ledger. Native identity, toolkit, interests, quote and contacts remain
-unchanged by the visual refinement.
+The owner rejected an identity-heavy header and plain body, requesting a clear
+who/what/proof narrative, useful project visuals, and a visual technology stack.
+Public repository metadata, source files and manifests were read directly. A
+repository being public and non-forked does not establish sole authorship or
+production adoption. No private repositories were inspected for this section.
+
+### Flagship: Folio
+
+Suggested copy: **“Invoice extraction with independent arithmetic checks and a
+human review workflow. The original extraction stays intact when a reviewer
+corrects the result.”**
+
+- [Source repository](https://github.com/YashModi1804/folio-invoice-verification).
+- [Sample walkthrough](https://yashmodi1804.github.io/folio-invoice-verification/): explicitly synthetic; no live model call or private uploads.
+- [Live entry](https://yashmodi1804.github.io/folio-invoice-verification/launch/): readiness-aware entry with the static walkthrough available while the temporary backend wakes.
+- [Decimal verification](https://github.com/YashModi1804/folio-invoice-verification/blob/main/app/domain/verify.py): line, subtotal and total arithmetic in Python, independent of the model.
+- [Persisted job processing](https://github.com/YashModi1804/folio-invoice-verification/blob/main/app/worker.py): asynchronous worker processing with explicit states, capacity handling and failure paths.
+- [Review history](https://github.com/YashModi1804/folio-invoice-verification/blob/main/app/review.py): a separate decision/corrected snapshot preserves original extraction.
+
+Project-specific stack confirmed in the README, dependency manifests and Dockerfile:
+**React, TypeScript, Python, FastAPI, Pydantic, PostgreSQL, Docker**. These names may
+appear on a clearly labeled Folio stack strip. Do not present an extraction
+accuracy rate, throughput benchmark, customer result or security certification.
+An actual screenshot must retain fixture labels; synthetic discrepancy values
+demonstrate verification behavior rather than model accuracy.
+
+### Supporting work: Scholarship workflow
+
+Suggested copy: **“A React and Express scholarship portal with student/admin
+screens and staged verification records.”** Use the readable title “Scholarship
+workflow”; link to the existing repository without changing it.
+
+- [Repository](https://github.com/YashModi1804/RBAC-Driven-Scholarship-Workflow-Engine) is public and non-forked in GitHub metadata.
+- [Frontend routes](https://github.com/YashModi1804/RBAC-Driven-Scholarship-Workflow-Engine/blob/main/frontend/src/App.js) contain student, status, admin, dean and registrar screens.
+- [Scholarship model](https://github.com/YashModi1804/RBAC-Driven-Scholarship-Workflow-Engine/blob/main/backend/models/scholarshipDetails.js) contains staged verification/validation fields.
+- [Associate-dean controller](https://github.com/YashModi1804/RBAC-Driven-Scholarship-Workflow-Engine/blob/main/backend/controllers/adean.js) selects records after department-head verification.
+- [Frontend manifest](https://github.com/YashModi1804/RBAC-Driven-Scholarship-Workflow-Engine/blob/main/frontend/package.json) and [backend manifest](https://github.com/YashModi1804/RBAC-Driven-Scholarship-Workflow-Engine/blob/main/backend/package.json) confirm **React, Node.js, Express and Mongoose/MongoDB**.
+
+This inspection establishes implemented screens and data flow, not complete
+authorization correctness, operational deployment, audit guarantees, institutional
+adoption or reduction in processing delays. The README contains generic setup
+text and another repository's clone reference; do not copy its claims wholesale.
+Use source as the call to action; its configured live site was not revalidated.
+
+### Candidates not promoted
+
+- **CodeAssist:** source inspection confirms a small Flask/PyMySQL quiz interface,
+  question endpoints and answer submission ([main.py](https://github.com/YashModi1804/CodeAssist/blob/main/main.py),
+  [quiz script](https://github.com/YashModi1804/CodeAssist/blob/main/static/script.js)).
+  Its README incorrectly describes a React/Express scholarship application. Do
+  not use that stack or repeat the “100+ participants” claim without further
+  evidence. Omit from this profile revision rather than feature conflicting docs.
+- **Geospatial pollution analytics:** the public repository contains Flask/Earth
+  Engine material, but its README references another source repository and
+  institutional acknowledgements. Those do not prove Yash's individual role or
+  affiliations. Omit rather than inflate the work narrative.
+- Public forks and empty repositories are not evidence of original project work.
+
+### Revised acceptance
+
+- [ ] Visitors can identify who Yash is, what he builds and where to inspect it before reaching activity statistics.
+- [ ] Identity artwork is subordinate to selected work; the complete body has a coherent visual structure.
+- [ ] Peak particle dispersion is a scattered cloud with no residual letter silhouette; reassembly, readable holds and the seamless 25 fps cycle are visually checked.
+- [ ] Project visuals depict actual software or clearly labeled architecture, with useful source/demo links and no fabricated product screens.
+- [ ] All 14 original tools remain; added project technologies are explicitly scoped to Folio and readable as names, not just icons.
+- [ ] New project copy stays within the verified statements above; original facts, contacts, quote, metric links and fallback remain intact.
+
+These are acceptance criteria for the new revision, not claims that its final
+rendering or live workflow has already passed.
+
+## Current particle identity
+
+The active direction is a compact, title-case name on a dark background with warm
+accents. Every letter participates in full dispersion and reassembly. There is
+no sculpture or special O symbol. Continuity is expressed by the particles
+returning to the complete name, with a formed still for reduced motion.
+
+The hero is decorative personal artwork, not an employer graphic, live telemetry
+or a scientific simulation. Selected projects and inspectable engineering choices
+carry the professional story. Original identity, contacts, learning interests,
+toolkit, exact quote, metric links and visitor identity remain preserved.

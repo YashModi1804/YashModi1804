@@ -1,7 +1,11 @@
-"""Deterministic, bounded nano-particle choreography for Yash's wordmark."""
+"""Deterministic decorative particles that disperse and reassemble a text mask.
+
+This is a designed animation, not a physical nanoparticle simulation.
+"""
 
 import math
 import random
+from dataclasses import dataclass
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter
 
@@ -12,101 +16,83 @@ def ease(value):
 
 
 def scatter_at(phase):
-    """Hold, disassemble, flow, reform, hold; the loop seam is a long still hold."""
     progress = (phase / math.tau) % 1.0
-    if progress < 0.18 or progress >= 0.73:
+    if progress < 0.16 or progress >= 0.78:
         return 0.0
-    if progress < 0.34:
-        return ease((progress - 0.18) / 0.16)
-    if progress < 0.43:
+    if progress < 0.31:
+        return ease((progress - 0.16) / 0.15)
+    if progress < 0.48:
         return 1.0
-    return 1.0 - ease((progress - 0.43) / 0.30)
+    return 1.0 - ease((progress - 0.48) / 0.30)
+
+
+@dataclass(frozen=True)
+class Particle:
+    x: float
+    y: float
+    cx: float
+    cy: float
+    dx: float
+    dy: float
+    radius: float
+    tint: float
+    phase: float
+    field: int
+    strength: float
+    delay: float
 
 
 class ParticleWordmark:
-    """A pixel mask plus seeded trajectories; no per-frame random variation.
+    """All glyph pixels, including the o in Modi, follow the same choreography.
 
-    Quadratic Bezier paths stay inside the convex hull of their control points.
-    Top/bottom strip bounds protect the static role, quote, O and learning labels.
-    Coherent undulation stays inside an additional safety margin.
+    Destinations are independently sampled in a wide ellipse. They have no
+    positional relationship to source letters, so the name disappears completely
+    at maximum dispersion. Fixed paths and low-frequency drifting prevent jitter.
     """
 
-    def __init__(self, mask, scale=2, count=4500):
-        self.mask = mask
-        self.scale = scale
+    def __init__(self, mask, scale=2, count=3000):
+        self.mask, self.scale = mask, scale
         width, height = mask.width // scale, mask.height // scale
         source = mask.resize((width, height), Image.Resampling.LANCZOS)
         pixels = source.load()
+        left, top, right, bottom = source.getbbox()
         rng = random.Random(1804)
 
-        # Soft, fixed material variation makes the solid letters disassemble in
-        # small patches. A continuous threshold avoids binary sparkle/flicker.
-        noise = Image.new("L", (max(1, width // 11), max(1, height // 11)))
+        noise = Image.new("L", (max(1, width // 8), max(1, height // 8)))
         noise.putdata(
             [rng.randrange(30, 226) for _ in range(noise.width * noise.height)]
         )
         self.field = noise.resize(mask.size, Image.Resampling.BICUBIC).filter(
-            ImageFilter.GaussianBlur(3 * scale)
+            ImageFilter.GaussianBlur(2 * scale)
         )
         field_small = self.field.resize((width, height), Image.Resampling.LANCZOS)
 
         self.particles = []
         while len(self.particles) < count:
-            x, y = rng.uniform(38, 1120), rng.uniform(91, 548)
+            x, y = rng.uniform(left, right - 1), rng.uniform(top, bottom - 1)
             if pixels[int(x), int(y)] < 220:
                 continue
-            bounds = (40, 830, 80, 307) if y < 310 else (42, 1146, 322, 561)
-            left, right, top, bottom = bounds
-            # Three curved material streams flow around the continuous bronze O.
-            # Their shaped boundaries avoid rectangular random-noise plumes.
-            if y < 310:
-                u, v = (x - 38) / 720, (y - 91) / 209
-                dest_x = 45 + u * 770 + rng.uniform(-8, 8)
-                dest_y = (
-                    193
-                    + 52 * math.sin(u * math.tau * 1.1 + 0.2)
-                    + (v - 0.5) * 70
-                    + rng.uniform(-6, 6)
-                )
-            elif x < 360:
-                u, v = (x - 63) / 240, (y - 337) / 211
-                dest_x = 50 + u * 275 + rng.uniform(-8, 8)
-                dest_y = (
-                    425
-                    + 45 * math.sin(u * math.pi + 0.2)
-                    + (v - 0.5) * 78
-                    + rng.uniform(-6, 6)
-                )
-            else:
-                u, v = (x - 754) / 351, (y - 337) / 211
-                dest_x = 735 + u * 390 + rng.uniform(-8, 8)
-                dest_y = (
-                    423
-                    + 53 * math.sin(u * math.tau * 0.9 + 0.4)
-                    + (v - 0.5) * 78
-                    + rng.uniform(-6, 6)
-                )
-            dest_x = min(right - 5, max(left + 5, dest_x))
-            dest_y = min(bottom - 5, max(top + 5, dest_y))
-            control_x = min(
-                right - 5, max(left + 5, (x + dest_x) / 2 + rng.uniform(-34, 34))
-            )
-            control_y = min(
-                bottom - 5, max(top + 5, (y + dest_y) / 2 + rng.uniform(-40, 40))
-            )
+            # Uniform independent points in a broad ellipse: no source-coordinate
+            # terms appear in these destination equations.
+            angle, radius = rng.uniform(0, math.tau), math.sqrt(rng.random())
+            dx = 600 + 515 * radius * math.cos(angle)
+            dy = 164 + 82 * radius * math.sin(angle)
+            cx = min(1125, max(75, (x + dx) / 2 + rng.uniform(-85, 85)))
+            cy = min(247, max(81, (y + dy) / 2 + rng.uniform(-58, 58)))
             self.particles.append(
-                (
+                Particle(
                     x,
                     y,
-                    control_x,
-                    control_y,
-                    dest_x,
-                    dest_y,
+                    cx,
+                    cy,
+                    dx,
+                    dy,
                     rng.uniform(0.65, 1.65),
                     rng.random(),
                     rng.uniform(0, math.tau),
                     field_small.getpixel((int(x), int(y))),
                     rng.uniform(0.65, 1.0),
+                    rng.uniform(0, 0.14),
                 )
             )
 
@@ -116,9 +102,9 @@ class ParticleWordmark:
             image.paste(palette["ink"], (0, 0), self.mask)
             return
 
-        threshold = -35 + amount * 650
+        threshold = amount * 370
         lookup = [
-            round(255 * ease((value - threshold + 28) / 56)) for value in range(256)
+            round(255 * ease((value - threshold + 24) / 48)) for value in range(256)
         ]
         solid = ImageChops.multiply(self.mask, self.field.point(lookup))
         image.paste(palette["ink"], (0, 0), solid)
@@ -130,36 +116,25 @@ class ParticleWordmark:
             rgb(palette[key]) for key in ("background", "ink", "accent")
         )
         draw = ImageDraw.Draw(image)
-        inv = 1 - amount
-        drift = amount * amount
-        for (
-            x,
-            y,
-            cx,
-            cy,
-            dx,
-            dy,
-            radius,
-            tint,
-            seed_phase,
-            field,
-            strength,
-        ) in self.particles:
-            # The particle fades in where its corresponding patch of solid type
-            # recedes; color and radius remain deterministic throughout the loop.
-            visibility = 1 - ease((field - threshold + 35) / 70)
+        for p in self.particles:
+            visibility = 1 - ease((p.field - threshold + 30) / 60)
             if visibility < 0.005:
                 continue
-            px = inv * inv * x + 2 * inv * amount * cx + amount * amount * dx
-            py = inv * inv * y + 2 * inv * amount * cy + amount * amount * dy
-            px += drift * (5 * math.sin(phase * 2 + x / 125) + math.sin(seed_phase))
-            py += drift * (7 * math.sin(phase * 2 + x / 95) + math.cos(seed_phase))
-            target = accent if tint > 0.65 else ink
-            alpha = visibility * strength
+            travel = ease((amount - p.delay) / (1 - p.delay))
+            inv = 1 - travel
+            px = inv * inv * p.x + 2 * inv * travel * p.cx + travel * travel * p.dx
+            py = inv * inv * p.y + 2 * inv * travel * p.cy + travel * travel * p.dy
+            # Loose independent drifting only becomes strong in the dispersed
+            # cloud; it vanishes exactly when a particle reaches its source glyph.
+            drift = travel * travel
+            px += 18 * drift * math.sin(phase * 2 + p.phase)
+            py += 9 * drift * math.cos(phase * 2 + p.phase)
+            target = accent if p.tint > 0.82 else ink
+            alpha = visibility * p.strength
             color = tuple(
                 round(a + (b - a) * alpha) for a, b in zip(background, target)
             )
-            radius *= self.scale
+            radius = p.radius * self.scale
             px, py = px * self.scale, py * self.scale
             draw.ellipse(
                 (px - radius, py - radius, px + radius, py + radius), fill=color

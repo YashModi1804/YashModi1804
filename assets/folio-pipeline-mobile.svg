@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="648" viewBox="0 0 480 648" role="img" aria-labelledby="title">
+<title id="title">Folio architecture: intake, extraction, verification and human review</title>
+<rect width="480" height="648" rx="14" fill="#0B1417"/>
+<g font-family="Arial,sans-serif">
+<text x="28" y="48" fill="#EFE9DC" font-size="32" font-weight="700">Folio</text>
+<text x="28" y="79" fill="#ABB8BB" font-size="16">FROM DOCUMENT TO DECISION</text>
+<path d="M36 155v349" fill="none" stroke="#35494F" stroke-width="2"/>
+<rect x="60" y="112" width="392" height="94" rx="10" fill="#111E22" stroke="#2A3C41"/>
+<circle cx="36" cy="154" r="6" fill="#7FBAB0"/>
+<text x="77" y="142" fill="#7FBAB0" font-size="14">01</text>
+<text x="113" y="142" fill="#EFE9DC" font-size="22" font-weight="700">Document</text>
+<text x="77" y="169" fill="#EFE9DC" font-size="17">2 pages · 18 line items</text>
+<text x="77" y="192" fill="#ABB8BB" font-size="15">Bounded PDF intake</text>
+<rect x="60" y="219" width="392" height="94" rx="10" fill="#111E22" stroke="#2A3C41"/>
+<circle cx="36" cy="261" r="6" fill="#7FBAB0"/>
+<text x="77" y="249" fill="#7FBAB0" font-size="14">02</text>
+<text x="113" y="249" fill="#EFE9DC" font-size="22" font-weight="700">Extraction</text>
+<text x="77" y="276" fill="#EFE9DC" font-size="17">Provider output to schema</text>
+<text x="77" y="299" fill="#ABB8BB" font-size="15">Validated data contract</text>
+<rect x="60" y="326" width="392" height="94" rx="10" fill="#111E22" stroke="#2A3C41"/>
+<circle cx="36" cy="368" r="6" fill="#E3A77C"/>
+<text x="77" y="356" fill="#E3A77C" font-size="14">03</text>
+<text x="113" y="356" fill="#EFE9DC" font-size="22" font-weight="700">Verification</text>
+<text x="77" y="383" fill="#EFE9DC" font-size="17">Independent Decimal math</text>
+<text x="77" y="406" fill="#ABB8BB" font-size="15">USD 125.00 difference</text>
+<rect x="60" y="433" width="392" height="94" rx="10" fill="#111E22" stroke="#2A3C41"/>
+<circle cx="36" cy="475" r="6" fill="#E3A77C"/>
+<text x="77" y="463" fill="#E3A77C" font-size="14">04</text>
+<text x="113" y="463" fill="#EFE9DC" font-size="22" font-weight="700">Human review</text>
+<text x="77" y="490" fill="#EFE9DC" font-size="17">Flag, inspect, decide</text>
+<text x="77" y="513" fill="#ABB8BB" font-size="15">Original result preserved</text>
+<text x="28" y="570" fill="#E3A77C" font-size="18">$60,283.67 printed − $60,158.67 checked</text>
+<text x="28" y="597" fill="#E3A77C" font-size="20" font-weight="700">USD 125.00 difference → human review</text>
+<text x="28" y="629" fill="#ABB8BB" font-size="12">SYNTHETIC SCENARIO · ARCHITECTURE ILLUSTRATION</text>
+</g></svg>
