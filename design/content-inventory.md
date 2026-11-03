@@ -87,7 +87,7 @@ The original `count_private=true` parameters do not by themselves prove access t
 
 ## Final implementation audit — 2026-11-03
 
-The finished `README.md` preserves all original personal facts and contact destinations in native text. The only employment change is the requested **Associate Engineer** title at Oracle; no tenure, job responsibilities, or additional credentials were inferred. The toolkit table contains exactly 14 unique names, with no omissions or additions. The learning sentence still describes learning, and the exact quote remains unattributed. All eight local image/document destinations referenced by the README exist.
+The finished `README.md` preserves all original personal facts and contact destinations in native text. The only employment change is the requested **Associate Engineer** title at Oracle; no tenure, job responsibilities, or additional credentials were inferred. The toolkit table contains exactly 14 unique names, with no omissions or additions. The learning sentence still describes learning, and the exact quote remains unattributed. All local image/document destinations referenced by the README exist.
 
 The public activity presentation has deliberately changed from three hosted cards to the expandable **activity ledger**, with a committed JSON snapshot and light/dark SVGs. A weekly workflow refreshes the snapshot. The visitor badge retains its original URL and counter identity.
 
@@ -108,3 +108,14 @@ The new metrics are not numerically interchangeable with the old cards:
 - [x] All 14 tools remain present and readable, each appearing once in the native toolkit table.
 - [x] Activity statistics, streaks, and top languages remain available in the local snapshot; the changed numerical scope is documented above. The existing visitor counter is unchanged.
 - [x] No unsupported personal, employment, or skill claims were added.
+
+## Particle identity refinement
+
+The owner selected dark cinematic styling with warm accents and requested letters
+that break into particles and reform. The active hero uses the dark artwork
+regardless of the viewer's GitHub theme, with a reduced-motion still. The light
+artwork remains an alternate asset. The Möbius surface forms the O in MODI; it is
+decorative personal artwork, not an employer graphic or scientific simulation.
+The exact original statistics, streak, and language URLs are available as links
+inside the ledger. Native identity, toolkit, interests, quote and contacts remain
+unchanged by the visual refinement.

@@ -1,8 +1,9 @@
 # Maintaining this profile
 
 The redesign is original artwork made for Yash Modi. Its visual idea is continuity:
-a shaded Möbius surface, drawn from its parametric geometry and animated through a
-complete turn. The palette, typography, illustrations and activity cards are stored
+the name breaks into fine particles and reconstructs, while a shaded Möbius surface
+forms the O in MODI. The sculpture is drawn from parametric geometry; particle
+destinations come from the actual letter shapes. The palette, typography and activity cards are stored
 in this repository. There is no animation service, embedded script, or copied banner
 template in the profile. The existing visitor counter remains an external image.
 
@@ -31,11 +32,20 @@ role to **Associate Engineer at Oracle**, as requested.
 
 ## Artwork and motion
 
-`assets/identity-light.gif` and `assets/identity-dark.gif` contain 192 frames in a
-12.48-second seamless loop. Each file is below 5 MB. First-frame PNGs provide still
-artwork. GitHub's native `<picture>` support selects the theme; reduced-motion
-sources request the static version. GitHub also has its own animated-image controls.
+The owner's chosen public direction is dark carbon, ivory and warm bronze,
+including when a visitor uses GitHub's light theme. The light artwork is retained
+as an alternate asset. First-frame PNGs show the fully formed name. The README's
+`<picture>` requests the dark static version for reduced-motion preferences.
+GitHub also has its own animated-image controls.
 All essential facts appear as native Markdown independently of the artwork.
+
+The particle revision has 300 frames at 40 ms each: 25 fps over a 12-second loop.
+The fully formed lettering is held for about 5.4 seconds in total. 4,500 seeded
+particles follow eased curves; no new random positions are introduced per frame.
+GIF delivery is 960 × 544 with a shared 128-color palette that reserves detail for
+the bronze surface, while still artwork is 1200 × 680. The dark GIF is approximately
+11 MB; preserve smooth timing and inspect
+mobile particle detail if changing that size/quality tradeoff.
 
 The image generators do not bundle fonts. The identity was rendered with macOS
 Avenir Next; only the resulting pixels are distributed. To regenerate on the same

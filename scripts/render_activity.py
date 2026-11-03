@@ -6,10 +6,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 THEMES = {
-    "light": ("#F1EEE7", "#172C2B", "#69756B", "#D2D5C9"),
-    "dark": ("#111C1C", "#F0EBDD", "#A5B2A5", "#32433E"),
+    "light": ("#F4EEE4", "#222A2C", "#706F66", "#D8CDBB"),
+    "dark": ("#0B1417", "#EFE9DC", "#AFA99C", "#334044"),
 }
-COLORS = ["#C76A4D", "#5D8976", "#B49B60", "#7B8F9C", "#A28995", "#8B9072", "#96958E"]
+COLORS = ["#D68A5E", "#82A19A", "#B9A777", "#879DAE", "#AC8F9E", "#9BA17F", "#99968E"]
 
 
 def render(data, theme):

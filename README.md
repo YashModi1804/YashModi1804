@@ -1,8 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/identity-dark.png">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/identity-dark.gif">
-  <img src="./assets/identity-light.gif" alt="Yash Modi — Associate Engineer at Oracle, India. An original, slowly turning Möbius ribbon: a study in continuity." width="1200">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-dark.png?v=particles-1">
+  <img src="./assets/identity-dark.gif?v=particles-1" alt="Yash Modi — Associate Engineer at Oracle, India. The name dissolves into particles and reforms, with a Möbius ribbon as the O in MODI." width="1200">
 </picture>
 
 <br>
@@ -38,10 +36,7 @@ I’m always up for a conversation about **C++**, **Node.js**, **React**, **REST
 <details>
   <summary><b>The activity ledger</b> — contributions, streaks & languages</summary>
   <br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg">
-    <img src="./assets/activity-light.svg" alt="GitHub activity: profile contributions and streaks over the last 365 days; public repository and star totals; language distribution across original public repositories." width="1200">
-  </picture>
+  <img src="./assets/activity-dark.svg?v=bronze-1" alt="GitHub activity: profile contributions and streaks over the last 365 days; public repository and star totals; language distribution across original public repositories." width="1200">
 
   A weekly snapshot from GitHub’s public profile and repository data. Contributions
   include the anonymized activity GitHub displays publicly; they are not a count
@@ -49,12 +44,14 @@ I’m always up for a conversation about **C++**, **Node.js**, **React**, **REST
   bytes from original public repositories, with HTML excluded.
 
   [Snapshot & sources](./data/activity.json) · [How it updates](./design/MAINTENANCE.md)
+
+  Original views: [Profile stats](https://github-readme-stats-salesp07.vercel.app/api?username=YashModi1804&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10) · [Streaks](https://github-readme-streak-stats-salesp07.vercel.app/?user=YashModi1804&count_private=true&theme=react&border_radius=10) · [Top languages](https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=YashModi1804&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats)
 </details>
 
 <br>
 
 <p>
-  <sub>A study in continuity. <a href="./assets/identity-light.png">View the still artwork</a>.</sub>
+  <sub>A study in continuity. <a href="./assets/identity-dark.png">View the still artwork</a>.</sub>
   <br>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=YashModi1804.YashModi1804" alt="Profile visitor counter">
 </p>
