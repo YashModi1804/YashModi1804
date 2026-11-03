@@ -38,6 +38,10 @@ as an alternate asset. First-frame PNGs show the fully formed name. The README's
 `<picture>` requests the dark static version for reduced-motion preferences.
 GitHub also has its own animated-image controls.
 All essential facts appear as native Markdown independently of the artwork.
+The README pins its hero URLs to the artwork commit so GitHub's raw-image cache
+cannot briefly show an earlier design after publication. After a future artwork
+change, publish the assets first, then update those three URLs to that commit.
+The activity ledger stays on the default branch so weekly updates remain visible.
 
 The particle revision has 300 frames at 40 ms each: 25 fps over a 12-second loop.
 The fully formed lettering is held for about 5.4 seconds in total. 4,500 seeded

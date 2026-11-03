@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-dark.png?v=particles-1">
-  <img src="./assets/identity-dark.gif?v=particles-1" alt="Yash Modi — Associate Engineer at Oracle, India. The name dissolves into particles and reforms, with a Möbius ribbon as the O in MODI." width="1200">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/YashModi1804/YashModi1804/50b00ee/assets/identity-dark.png">
+  <img src="https://raw.githubusercontent.com/YashModi1804/YashModi1804/50b00ee/assets/identity-dark.gif" alt="Yash Modi — Associate Engineer at Oracle, India. The name dissolves into particles and reforms, with a Möbius ribbon as the O in MODI." width="1200">
 </picture>
 
 <br>
@@ -51,7 +51,7 @@ I’m always up for a conversation about **C++**, **Node.js**, **React**, **REST
 <br>
 
 <p>
-  <sub>A study in continuity. <a href="./assets/identity-dark.png">View the still artwork</a>.</sub>
+  <sub>A study in continuity. <a href="https://raw.githubusercontent.com/YashModi1804/YashModi1804/50b00ee/assets/identity-dark.png">View the still artwork</a>.</sub>
   <br>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=YashModi1804.YashModi1804" alt="Profile visitor counter">
 </p>
