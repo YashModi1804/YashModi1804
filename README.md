@@ -1,60 +1,60 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=YashModi1804.YashModi1804" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/identity-dark.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/identity-dark.gif">
+  <img src="./assets/identity-light.gif" alt="Yash Modi — Associate Engineer at Oracle, India. An original, slowly turning Möbius ribbon: a study in continuity." width="1200">
+</picture>
 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Yash+Modi!;" />
-</h1>
-
-<h3 align="center">A passionate Developer 🇮🇳</h3>
-
-<br/>
-
-<div align="center">
- 
- 🔭 I’m currently working in **Oracle**
- 
- 🌱 I’m currently learning **Low latency Software ,System Design, Cloud Architecture**
-
-💬 Ask me about **C++,Node.js, React, REST APIs... or anything** [here](https://github.com/YashModi1804/issues)
-
-</div>
-
-<div align="center"> 
-  <a href="mailto:modi.yash18042004@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://www.linkedin.com/in/yash-modi-1804y/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-</div>
-<div align="center">
-⚡ Wisdom Drop : In the stillness of the mind, one can find the universe!
-</div>
-<hr/>
-
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-<br/>
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=react,nodejs,javascript,typescript,html,css,mongodb,express,c,cpp,mysql,git,vscode,github" /><br>
-</div>
-</div>
-
-<hr/>
-
-<h2 align="center">⚡ Stats ⚡</h2>
 <br>
-<div align=center>
-  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=YashModi1804&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=YashModi1804&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=YashModi1804&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
-</div>
 
-<br/><br/>
+I’m **Yash Modi**, an **Associate Engineer at Oracle** and a passionate developer from India.
 
-<hr/>
+Currently learning **low-latency software**, **system design**, and **cloud architecture**.
 
-<br/>
+I’m always up for a conversation about **C++**, **Node.js**, **React**, **REST APIs**—or whatever you’re curious about.
 
+**[Say hello ↗](mailto:modi.yash18042004@gmail.com)** &nbsp; / &nbsp; **[LinkedIn ↗](https://www.linkedin.com/in/yash-modi-1804y/)** &nbsp; / &nbsp; **[Ask me something ↗](https://github.com/YashModi1804/YashModi1804/issues)**
 
+<br>
 
-<br/>
+### The working set
+
+| | Languages, frameworks & tools |
+| :--- | :--- |
+| **Languages** | C · C++ · JavaScript · TypeScript |
+| **Interface** | React · HTML · CSS |
+| **Backend** | Node.js · Express |
+| **Data** | MongoDB · MySQL |
+| **Workflow** | Git · GitHub · VS Code |
+
+<br>
+
+### Beyond the code
+
+> In the stillness of the mind, one can find the universe!
+
+<br>
+
+<details>
+  <summary><b>The activity ledger</b> — contributions, streaks & languages</summary>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg">
+    <img src="./assets/activity-light.svg" alt="GitHub activity: profile contributions and streaks over the last 365 days; public repository and star totals; language distribution across original public repositories." width="1200">
+  </picture>
+
+  A weekly snapshot from GitHub’s public profile and repository data. Contributions
+  include the anonymized activity GitHub displays publicly; they are not a count
+  of commits. Streaks cover the displayed 365-day window. Language shares use source
+  bytes from original public repositories, with HTML excluded.
+
+  [Snapshot & sources](./data/activity.json) · [How it updates](./design/MAINTENANCE.md)
+</details>
+
+<br>
+
+<p>
+  <sub>A study in continuity. <a href="./assets/identity-light.png">View the still artwork</a>.</sub>
+  <br>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=YashModi1804.YashModi1804" alt="Profile visitor counter">
+</p>
