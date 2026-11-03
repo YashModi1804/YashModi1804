@@ -1,0 +1,44 @@
+name: Refresh public profile metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'YashModi1804/YashModi1804'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Verify metric calculations
+        run: python3 -m unittest discover -s tests -v
+      - name: Refresh public data and render activity cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/profile_metrics.py
+          python3 scripts/render_activity.py
+      - name: Commit updated snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/activity.json assets/activity-*.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Refresh public profile activity"
+          git push
