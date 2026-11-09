@@ -1,48 +1,24 @@
 {
   "schema_version": 1,
   "username": "YashModi1804",
-  "generated_at": "2026-11-03T05:16:41Z",
+  "generated_at": "2026-11-09T11:30:40Z",
   "period": {
-    "from": "2025-11-04",
-    "to": "2026-11-03",
+    "from": "2025-11-10",
+    "to": "2026-11-09",
     "days": 365
   },
   "repositories": {
-    "public": 23,
-    "original": 20,
+    "public": 24,
+    "original": 21,
     "stars": 2,
     "scope": "Owned public repositories, including forks; originals and earned stars exclude forks."
   },
   "contributions": {
-    "total": 143,
-    "current_streak": 1,
+    "total": 170,
+    "current_streak": 0,
     "longest_streak": 3,
-    "active_days": 21,
+    "active_days": 22,
     "days": [
-      {
-        "date": "2025-11-04",
-        "count": 0
-      },
-      {
-        "date": "2025-11-05",
-        "count": 0
-      },
-      {
-        "date": "2025-11-06",
-        "count": 0
-      },
-      {
-        "date": "2025-11-07",
-        "count": 0
-      },
-      {
-        "date": "2025-11-08",
-        "count": 0
-      },
-      {
-        "date": "2025-11-09",
-        "count": 0
-      },
       {
         "date": "2025-11-10",
         "count": 0
@@ -1477,7 +1453,31 @@
       },
       {
         "date": "2026-11-03",
-        "count": 11
+        "count": 15
+      },
+      {
+        "date": "2026-11-04",
+        "count": 0
+      },
+      {
+        "date": "2026-11-05",
+        "count": 0
+      },
+      {
+        "date": "2026-11-06",
+        "count": 0
+      },
+      {
+        "date": "2026-11-07",
+        "count": 23
+      },
+      {
+        "date": "2026-11-08",
+        "count": 0
+      },
+      {
+        "date": "2026-11-09",
+        "count": 0
       }
     ],
     "scope": "Counts visible on the anonymous public GitHub profile, which may include anonymized private activity the owner chooses to share; not a commit count.",
@@ -1485,37 +1485,62 @@
     "source": "GitHub anonymous public contribution calendar"
   },
   "languages": {
-    "total_bytes": 1053172,
+    "total_bytes": 1590918,
     "items": [
       {
         "name": "JavaScript",
         "bytes": 456866,
-        "percent": 43.4
+        "percent": 28.7
       },
       {
         "name": "Python",
-        "bytes": 374978,
-        "percent": 35.6
+        "bytes": 418440,
+        "percent": 26.3
+      },
+      {
+        "name": "Swift",
+        "bytes": 263897,
+        "percent": 16.6
+      },
+      {
+        "name": "C#",
+        "bytes": 219334,
+        "percent": 13.8
       },
       {
         "name": "CSS",
         "bytes": 92563,
-        "percent": 8.8
+        "percent": 5.8
       },
       {
         "name": "TypeScript",
         "bytes": 78983,
-        "percent": 7.5
+        "percent": 5.0
       },
       {
         "name": "C++",
         "bytes": 48658,
-        "percent": 4.6
+        "percent": 3.1
+      },
+      {
+        "name": "Shell",
+        "bytes": 6372,
+        "percent": 0.4
+      },
+      {
+        "name": "NSIS",
+        "bytes": 4091,
+        "percent": 0.3
       },
       {
         "name": "Dockerfile",
         "bytes": 661,
-        "percent": 0.1
+        "percent": 0.0
+      },
+      {
+        "name": "PowerShell",
+        "bytes": 590,
+        "percent": 0.0
       },
       {
         "name": "PHP",

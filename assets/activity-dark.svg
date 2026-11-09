@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
 <title id="title">Yash Modi — the activity ledger</title>
-<desc id="desc">143 profile contributions over 365 days; 23 public repositories; 2 stars on original public repositories. Current streak 1 days; best streak in this window 3 days.</desc>
+<desc id="desc">170 profile contributions over 365 days; 24 public repositories; 2 stars on original public repositories. Current streak 0 days; best streak in this window 3 days.</desc>
 <rect width="1200" height="640" fill="#0B1417"/>
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" fill="#EFE9DC">
 <text x="48" y="48" font-size="15" font-weight="600" fill="#AFA99C" letter-spacing="2">THE ACTIVITY LEDGER</text>
-<text x="1152" y="48" font-size="15" font-weight="500" fill="#AFA99C" text-anchor="end">AS OF 2026-11-03</text>
+<text x="1152" y="48" font-size="15" font-weight="500" fill="#AFA99C" text-anchor="end">AS OF 2026-11-09</text>
 <path d="M48 72H1152" stroke="#334044"/>
-<text x="48" y="161" font-size="72" font-weight="600" fill="#EFE9DC" letter-spacing="-3">143</text>
+<text x="48" y="161" font-size="72" font-weight="600" fill="#EFE9DC" letter-spacing="-3">170</text>
 <text x="48" y="199" font-size="21" font-weight="500" fill="#EFE9DC" >Profile contributions</text>
 <text x="48" y="227" font-size="16" font-weight="400" fill="#AFA99C" >last 365 days</text>
-<text x="432" y="161" font-size="72" font-weight="600" fill="#EFE9DC" letter-spacing="-3">23</text>
+<text x="432" y="161" font-size="72" font-weight="600" fill="#EFE9DC" letter-spacing="-3">24</text>
 <text x="432" y="199" font-size="21" font-weight="500" fill="#EFE9DC" >Public repositories</text>
-<text x="432" y="227" font-size="16" font-weight="400" fill="#AFA99C" >20 original · 3 forks</text>
+<text x="432" y="227" font-size="16" font-weight="400" fill="#AFA99C" >21 original · 3 forks</text>
 <text x="816" y="161" font-size="72" font-weight="600" fill="#EFE9DC" letter-spacing="-3">2</text>
 <text x="816" y="199" font-size="21" font-weight="500" fill="#EFE9DC" >Stars earned</text>
 <text x="816" y="227" font-size="16" font-weight="400" fill="#AFA99C" >original public repositories</text>
 <path d="M48 259H1152" stroke="#334044"/>
 <text x="48" y="297" font-size="15" font-weight="600" fill="#AFA99C" letter-spacing="2">CONTINUITY</text>
-<text x="48" y="336" font-size="23" font-weight="500" fill="#EFE9DC" >1 day current streak</text>
+<text x="48" y="336" font-size="23" font-weight="500" fill="#EFE9DC" >0 day current streak</text>
 <text x="48" y="371" font-size="19" font-weight="400" fill="#AFA99C" >3 day best streak · 365d</text>
-<text x="48" y="401" font-size="16" font-weight="400" fill="#AFA99C" >21 active days in this window</text>
+<text x="48" y="401" font-size="16" font-weight="400" fill="#AFA99C" >22 active days in this window</text>
 <rect x="435.00" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="448.45" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="461.90" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
@@ -35,69 +35,72 @@
 <rect x="596.40" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="609.85" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="623.30" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="636.75" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="650.20" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="636.75" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="650.20" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="663.65" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="677.10" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="690.55" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="704.00" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="690.55" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="704.00" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
 <rect x="717.45" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
-<rect x="730.90" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
-<rect x="744.35" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="757.80" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="730.90" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
+<rect x="744.35" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="757.80" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="771.25" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="784.70" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="798.15" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="811.60" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="825.05" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="838.50" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="825.05" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="838.50" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="851.95" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="865.40" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="878.85" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="892.30" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="905.75" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="919.20" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="932.65" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="946.10" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="932.65" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="946.10" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="959.55" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="973.00" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="986.45" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="999.90" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="1013.35" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1026.80" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1040.25" y="302.00" width="8" height="100.00" rx="2" fill="#D68A5E"/>
-<rect x="1053.70" y="387.37" width="8" height="14.63" rx="2" fill="#D68A5E"/>
-<rect x="1067.15" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
-<rect x="1080.60" y="388.59" width="8" height="13.41" rx="2" fill="#D68A5E"/>
+<rect x="1026.80" y="302.00" width="8" height="100.00" rx="2" fill="#D68A5E"/>
+<rect x="1040.25" y="387.37" width="8" height="14.63" rx="2" fill="#D68A5E"/>
+<rect x="1053.70" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
+<rect x="1067.15" y="386.15" width="8" height="15.85" rx="2" fill="#D68A5E"/>
+<rect x="1080.60" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
 <rect x="1094.05" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="1107.50" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1120.95" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1134.40" y="388.59" width="8" height="13.41" rx="2" fill="#D68A5E"/>
+<rect x="1120.95" y="355.66" width="8" height="46.34" rx="2" fill="#D68A5E"/>
+<rect x="1134.40" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <text x="432" y="291" font-size="16" font-weight="400" fill="#AFA99C" >Contributions per week</text>
-<text x="432" y="430" font-size="13" font-weight="400" fill="#AFA99C" >2025-11-04</text>
-<text x="1152" y="430" font-size="13" font-weight="400" fill="#AFA99C" text-anchor="end">2026-11-03</text>
+<text x="432" y="430" font-size="13" font-weight="400" fill="#AFA99C" >2025-11-10</text>
+<text x="1152" y="430" font-size="13" font-weight="400" fill="#AFA99C" text-anchor="end">2026-11-09</text>
 <path d="M48 455H1152" stroke="#334044"/>
 <text x="48" y="494" font-size="15" font-weight="600" fill="#AFA99C" letter-spacing="2">LANGUAGE MIX</text>
 <text x="1152" y="494" font-size="15" font-weight="400" fill="#AFA99C" text-anchor="end">Public source bytes · forks &amp; HTML excluded</text>
-<rect x="48.000" y="518" width="478.915" height="14" fill="#D68A5E"/>
-<rect x="526.915" y="518" width="393.075" height="14" fill="#82A19A"/>
-<rect x="919.990" y="518" width="97.030" height="14" fill="#B9A777"/>
-<rect x="1017.021" y="518" width="82.795" height="14" fill="#879DAE"/>
-<rect x="1099.815" y="518" width="51.006" height="14" fill="#AC8F9E"/>
-<rect x="1150.822" y="518" width="0.693" height="14" fill="#9BA17F"/>
-<rect x="1151.515" y="518" width="0.485" height="14" fill="#99968E"/>
+<rect x="48.000" y="518" width="317.037" height="14" fill="#D68A5E"/>
+<rect x="365.037" y="518" width="290.372" height="14" fill="#82A19A"/>
+<rect x="655.409" y="518" width="183.128" height="14" fill="#B9A777"/>
+<rect x="838.537" y="518" width="152.204" height="14" fill="#879DAE"/>
+<rect x="990.742" y="518" width="64.233" height="14" fill="#AC8F9E"/>
+<rect x="1054.975" y="518" width="54.809" height="14" fill="#9BA17F"/>
+<rect x="1109.784" y="518" width="33.766" height="14" fill="#99968E"/>
+<rect x="1143.550" y="518" width="8.450" height="14" fill="#D68A5E"/>
 <circle cx="52" cy="560" r="4" fill="#D68A5E"/>
-<text x="65" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >JavaScript  43.4%</text>
+<text x="65" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >JavaScript  28.7%</text>
 <circle cx="334" cy="560" r="4" fill="#82A19A"/>
-<text x="347" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >Python  35.6%</text>
+<text x="347" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >Python  26.3%</text>
 <circle cx="616" cy="560" r="4" fill="#B9A777"/>
-<text x="629" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >CSS  8.8%</text>
+<text x="629" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >Swift  16.6%</text>
 <circle cx="898" cy="560" r="4" fill="#879DAE"/>
-<text x="911" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >TypeScript  7.5%</text>
+<text x="911" y="565" font-size="16" font-weight="400" fill="#EFE9DC" >C#  13.8%</text>
 <circle cx="52" cy="590" r="4" fill="#AC8F9E"/>
-<text x="65" y="595" font-size="16" font-weight="400" fill="#EFE9DC" >C++  4.6%</text>
+<text x="65" y="595" font-size="16" font-weight="400" fill="#EFE9DC" >CSS  5.8%</text>
 <circle cx="334" cy="590" r="4" fill="#9BA17F"/>
-<text x="347" y="595" font-size="16" font-weight="400" fill="#EFE9DC" >Dockerfile  &lt;0.1%</text>
+<text x="347" y="595" font-size="16" font-weight="400" fill="#EFE9DC" >TypeScript  5.0%</text>
 <circle cx="616" cy="590" r="4" fill="#99968E"/>
-<text x="629" y="595" font-size="16" font-weight="400" fill="#EFE9DC" >PHP  &lt;0.1%</text>
+<text x="629" y="595" font-size="16" font-weight="400" fill="#EFE9DC" >C++  3.1%</text>
+<circle cx="898" cy="590" r="4" fill="#D68A5E"/>
+<text x="911" y="595" font-size="16" font-weight="400" fill="#EFE9DC" >Other  0.8%</text>
 </g></svg>
