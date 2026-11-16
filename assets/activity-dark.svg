@@ -4,7 +4,7 @@
 <rect width="1200" height="640" fill="#0B1417"/>
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" fill="#EFE9DC">
 <text x="48" y="48" font-size="15" font-weight="600" fill="#AFA99C" letter-spacing="2">THE ACTIVITY LEDGER</text>
-<text x="1152" y="48" font-size="15" font-weight="500" fill="#AFA99C" text-anchor="end">AS OF 2026-11-09</text>
+<text x="1152" y="48" font-size="15" font-weight="500" fill="#AFA99C" text-anchor="end">AS OF 2026-11-16</text>
 <path d="M48 72H1152" stroke="#334044"/>
 <text x="48" y="161" font-size="72" font-weight="600" fill="#EFE9DC" letter-spacing="-3">170</text>
 <text x="48" y="199" font-size="21" font-weight="500" fill="#EFE9DC" >Profile contributions</text>
@@ -34,48 +34,48 @@
 <rect x="582.95" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="596.40" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="609.85" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="623.30" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="636.75" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="623.30" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="636.75" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="650.20" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="663.65" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="677.10" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="690.55" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="677.10" y="393.46" width="8" height="8.54" rx="2" fill="#D68A5E"/>
+<rect x="690.55" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
 <rect x="704.00" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
-<rect x="717.45" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
-<rect x="730.90" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="744.35" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="717.45" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
+<rect x="730.90" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="744.35" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="757.80" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="771.25" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="784.70" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="798.15" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="811.60" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="825.05" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="811.60" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="825.05" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="838.50" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="851.95" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="865.40" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="878.85" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="892.30" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="905.75" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="919.20" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="932.65" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="919.20" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="932.65" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="946.10" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="959.55" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="973.00" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="986.45" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="999.90" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1013.35" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1026.80" y="302.00" width="8" height="100.00" rx="2" fill="#D68A5E"/>
-<rect x="1040.25" y="387.37" width="8" height="14.63" rx="2" fill="#D68A5E"/>
-<rect x="1053.70" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1067.15" y="386.15" width="8" height="15.85" rx="2" fill="#D68A5E"/>
-<rect x="1080.60" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="1013.35" y="302.00" width="8" height="100.00" rx="2" fill="#D68A5E"/>
+<rect x="1026.80" y="387.37" width="8" height="14.63" rx="2" fill="#D68A5E"/>
+<rect x="1040.25" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
+<rect x="1053.70" y="386.15" width="8" height="15.85" rx="2" fill="#D68A5E"/>
+<rect x="1067.15" y="395.00" width="8" height="7.00" rx="2" fill="#D68A5E"/>
+<rect x="1080.60" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="1094.05" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1107.50" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
-<rect x="1120.95" y="355.66" width="8" height="46.34" rx="2" fill="#D68A5E"/>
+<rect x="1107.50" y="355.66" width="8" height="46.34" rx="2" fill="#D68A5E"/>
+<rect x="1120.95" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <rect x="1134.40" y="399.00" width="8" height="3.00" rx="2" fill="#334044"/>
 <text x="432" y="291" font-size="16" font-weight="400" fill="#AFA99C" >Contributions per week</text>
-<text x="432" y="430" font-size="13" font-weight="400" fill="#AFA99C" >2025-11-10</text>
-<text x="1152" y="430" font-size="13" font-weight="400" fill="#AFA99C" text-anchor="end">2026-11-09</text>
+<text x="432" y="430" font-size="13" font-weight="400" fill="#AFA99C" >2025-11-17</text>
+<text x="1152" y="430" font-size="13" font-weight="400" fill="#AFA99C" text-anchor="end">2026-11-16</text>
 <path d="M48 455H1152" stroke="#334044"/>
 <text x="48" y="494" font-size="15" font-weight="600" fill="#AFA99C" letter-spacing="2">LANGUAGE MIX</text>
 <text x="1152" y="494" font-size="15" font-weight="400" fill="#AFA99C" text-anchor="end">Public source bytes · forks &amp; HTML excluded</text>
